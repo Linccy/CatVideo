@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <RelativeLayout
+        android:layout_width="274dp"
+        android:layout_height="182dp"
+        android:background="@drawable/userloginwelcome"
+        android:layout_gravity="center">
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/nav_header_vertical_spacing"
+        android:ems="10"
+        android:hint="请输入您的邮箱"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPassWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
+        android:layout_marginRight="@dimen/nav_header_vertical_spacing"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/nav_header_vertical_spacing"
+        android:background="@drawable/btn_backg2"
+        android:text="登录"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
+        android:layout_marginRight="@dimen/nav_header_vertical_spacing"
+        android:text="注册"
+        android:textColor="@color/colorTitle"
+        android:background="@drawable/btn_backg"/>
+</LinearLayout>
